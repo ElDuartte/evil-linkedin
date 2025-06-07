@@ -30,10 +30,9 @@ logging.basicConfig(
 def procesar_cv(ruta_pdf):
     texto_completo = ""
     try:
-        doc = fitz.open(ruta_pdf)
-        for page in doc:
-            texto_completo += page.get_text()
-        doc.close()
+        with fitz.open(ruta_pdf) as doc:
+            for page in doc:
+                texto_completo += page.get_text()
     except Exception as e:
         logging.error(f"Error al leer el PDF {ruta_pdf}: {e}")
         return [], {}
@@ -111,7 +110,7 @@ def iniciar_navegador(cookies_path=None):
     if cookies_path and os.path.exists(cookies_path):
         try:
             driver.get("https://www.linkedin.com/")
-            with open(cookies_path, "r") as f:
+            with open(cookies_path, "r", encoding="utf-8") as f:
                 cookies = json.load(f)
             for cookie in cookies:
                 if "domain" in cookie and "linkedin.com" in cookie["domain"]:
