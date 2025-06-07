@@ -1,0 +1,19 @@
+2025-06-07 18:56:32,351 - INFO - Palabras clave extraídas del CV: ['github', 'end', 'react', 'desarrollo', 'com', 'node', 'datos', 'elduartte', 'front', 'scss', 'ruby', 'rails', 'experiencia', 'full', 'stack', '2022', 'desarrollé', 'web', 'linkedin', 'javascript']
+2025-06-07 18:56:32,351 - INFO - Datos personales extraídos del CV: {'email': 'jf@duartte.co', 'telefono': '+34 640 733 250'}
+2025-06-07 18:56:32,675 - WARNING - The chromedriver version (128.0.6613.86) detected in PATH at /usr/bin/chromedriver might not be compatible with the detected chrome version (137.0.7151.68); currently, chromedriver 137.0.7151.68 is recommended for chrome 137.*, so it is advised to delete the driver in PATH and retry
+2025-06-07 17:35:18,637 - ERROR - Error al leer el PDF Juan_Felipe_duarte_Fullstack-es.pdf: no such file: 'Juan_Felipe_duarte_Fullstack-es.pdf'
+2025-06-07 17:35:18,638 - INFO - ====== WebDriver manager ======
+2025-06-07 17:35:18,648 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-07 17:35:18,711 - INFO - About to download new driver from https://chromedriver.storage.googleapis.com/114.0.5735.90/chromedriver_linux64.zip
+2025-06-07 17:35:18,746 - INFO - Driver downloading response is 200
+2025-06-07 17:35:18,826 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-07 17:35:18,934 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-07 17:35:18,975 - INFO - Driver has been saved in cache [/root/.wdm/drivers/chromedriver/linux64/114.0.5735.90]
+2025-06-07 17:37:07,447 - ERROR - Error al leer el PDF Juan_Felipe_duarte_Fullstack-es.pdf: no such file: 'Juan_Felipe_duarte_Fullstack-es.pdf'
+2025-06-07 17:37:07,447 - INFO - ====== WebDriver manager ======
+2025-06-07 17:37:07,456 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-07 17:37:07,517 - INFO - About to download new driver from https://chromedriver.storage.googleapis.com/114.0.5735.90/chromedriver_linux64.zip
+2025-06-07 17:37:07,554 - INFO - Driver downloading response is 200
+2025-06-07 17:37:07,632 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-07 17:37:07,746 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-07 17:37:07,794 - INFO - Driver has been saved in cache [/root/.wdm/drivers/chromedriver/linux64/114.0.5735.90]
